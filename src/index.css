@@ -11,3 +11,29 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.card .card-reveal {
+  display: block;
+}
+
+.movies {
+  display: flex;
+  overflow: hidden;
+  flex-wrap: wrap;
+}
+
+.card {
+  height: max-content;
+  width: 300px;
+}
+
+.search {
+  width: 400px;
+}
+
+.searchMovie {
+  padding: 15px 18px;
+  background-color: rgb(13, 95, 13);
+  cursor: pointer;
+  color: #ffe;
+}

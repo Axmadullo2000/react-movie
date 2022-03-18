@@ -1,8 +1,20 @@
-import './App.css';
+import './index.css';
+
+import Header from './layout/Header';
+
+import Main from './layout/Main';
+
+import Footer from './layout/Footer';
 
 function App() {
   return (
-    <h2>Hello World!</h2>
+    <>
+      <Header />
+
+      <Main />
+
+      <Footer />
+    </>
   );
 }
 
